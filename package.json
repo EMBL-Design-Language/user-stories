@@ -1,0 +1,25 @@
+{
+  "name": "user-stories",
+  "version": "1.0.0",
+  "description": "A collection of various user stories that we aim to support with the EMBL Design Language.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "git+https://github.com/EMBL-Design-Language/user-stories.git",
+  "author": "khawkins98 <khawkins98@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EMBL-Design-Language/user-stories/issues"
+  },
+  "homepage": "https://github.com/EMBL-Design-Language/user-stories#readme",
+  "dependencies": {
+    "puppeteer": "^0.10.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-async-to-generator": "^6.24.1",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-node6": "^11.0.0"
+  }
+}
